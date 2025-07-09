@@ -1,0 +1,12 @@
+ceil -> 3/2 = 2
+a/b ->taking ceil -> [(a+b-1)/b]
+
+
+finding log
+
+int cnt=0;
+while(n>1){
+    n/=2LL;
+    cnt++;
+}
+8 -> 4 -> 2 -> 1
